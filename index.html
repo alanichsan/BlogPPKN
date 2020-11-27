@@ -30,18 +30,6 @@
 
     /* Style tab links */
     .tablink {
-      background-color: black;
-      color: white;
-      float: left;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      padding: 14px 16px;
-      font-size: 17px;
-      width: 25%;
-    }
-
-    .tablink2 {
       background-color: white;
       color: black;
       float: left;
@@ -54,7 +42,7 @@
     }
 
     .tablink:hover {
-      background-color: #777;
+      background-color: rgb(231, 231, 231);
     }
 
     /* Style the tab content (and add height:100% for full page content) */
@@ -72,16 +60,6 @@
 
 
 
-    #Home {
-      background-color: white;
-      color: black;
-    }
-
-    #News {
-      background-color: black;
-      color: white;
-
-    }
   </style>
 
 </head>
@@ -89,10 +67,10 @@
 <body>
   <div class="d-md-block d-none">
     <div class="container">
-      <button class="tablink2 text-dark" onclick="openPage('Home', this, 'white')">Anak Aset Bangsa</button>
-      <button class="tablink" onclick="openPage('News', this, 'black')" id="defaultOpen">Korupsi</button>
+      <button class="tablink font-weight-bold" onclick="openPage('Home')">Anak Aset Bangsa</button>
+      <button class="tablink font-weight-bold" onclick="openPage('News')" id="defaultOpen">Korupsi</button>
     </div>
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid">
       <div id="Home" class="tabcontent">
         <div class="media my-5">
           <img class="mr-3" src="anakdua.jpg" alt="Generic placeholder image" width="25%">
@@ -179,11 +157,11 @@
     </div>
 
 
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid">
       <div id="News" class="tabcontent tabcontent">
         <div class="media my-5">
           <div class="media-body">
-            <h5 class="mt-0 font-weight-bold">Korupsi</h5>
+            <h1 class="mt-0 font-weight-bold">Korupsi</h1>
             <h3 class="mt-5 font-weight-bold">Berawal dari sesuatu yang kecil</h3>
             <p class="text-justify">“Korupsi”, Kata itu sudah tak asing lagi ditelinga kita ,kita sadari bahwasannya
               dalam
