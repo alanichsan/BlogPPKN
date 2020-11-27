@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+    * {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body,
+    html {
+      margin: 0;
+      font-family: Arial;
+    }
+
+    /* Style tab links */
+    .tablink {
+      background-color: black;
+      color: white;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      font-size: 17px;
+      width: 25%;
+    }
+
+    .tablink2 {
+      background-color: white;
+      color: black;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      font-size: 17px;
+      width: 25%;
+    }
+
+    .tablink:hover {
+      background-color: #777;
+    }
+
+    /* Style the tab content (and add height:100% for full page content) */
+    .tabcontent {
+      display: none;
+      padding: 100px 20px;
+      height: 100%;
+    }
+
+    .tabcontent2 {
+      display: none;
+      padding: 100px 20px;
+      height: 100%;
+    }
+
+
+
+    #Home {
+      background-color: white;
+      color: black;
+    }
+
+    #News {
+      background-color: black;
+      color: white;
+
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="d-md-block d-none">
+    <div class="container">
+      <button class="tablink2 text-dark" onclick="openPage('Home', this, 'white')">Anak Aset Bangsa</button>
+      <button class="tablink" onclick="openPage('News', this, 'black')" id="defaultOpen">Korupsi</button>
+    </div>
+    <div class="container-fluid bg-dark">
+      <div id="Home" class="tabcontent">
+        <div class="media my-5">
+          <img class="mr-3" src="anakdua.jpg" alt="Generic placeholder image" width="25%">
+          <div class="media-body">
+            <h3 class="mt-0 font-weight-bold">Anak Aset Bangsa</h3>
+            <p class="text-justify">Anak-anak merupakan aset yang sangat berharga bagi bangsa. Karenanya, pemerintah
+              harus
+              melindungi dan
+              memenuhi hak anak. Konvensi Hak Anak dan Undang-Undang Perlindungan Anak menegaskan, anak-anak memiliki
+              empat
+              hak dasar. Yakni hak untuk hidup, hak untuk tumbuh dan berkembang, hak untuk dilindungi baik dari sisi
+              kekerasan, eksploitasi, demikian juga perlakuan salah lainnya dan hak untuk partisipasi.</p>
+            <h5 class="mt-0 font-weight-bold">Saya Lansir dari <a
+                href="https://www.unicef.org/indonesia/id/child-protection" class="card-link">Unicef</a></h5>
+            <p class="text-justify">Intimidasi dan dipermalukan adalah hal yang biasa terjadi di sekolah-sekolah, dengan
+              18
+              persen anak perempuan
+              dan 24 persen anak laki-laki terpengaruh. Anak laki-laki terutama menghadapi risiko serangan fisik di
+              sekolah.
+              Guru sering menggunakan hukuman fisik dan emosi untuk mendisiplinkan anak-anak. Mereka juga tidak memiliki
+              pengetahuan dan keterampilan untuk mengenali dan melaporkan kekerasan dan merujuk siswa ke layanan untuk
+              mengatasi masalah yang mereka alami. </p>
+
+
+            <p class="text-justify">Anak perempuan remaja cenderung lebih rentan terhadap praktik tradisional yang
+              berbahaya
+              seperti perkawinan
+              anak dan mutilasi alat kelamin perempuan (FGM) dibandingkan anak laki-laki. Satu dari setiap sembilan anak
+              perempuan menikah sebelum usia 18 tahun, dan anak-anak perempuan dari keluarga termiskin lima kali lebih
+              mungkin menikah pada usia sangat dini dibandingkan teman-teman mereka yang lebih kaya. Tingkat mutilasi
+              alat
+              kelamin perempuan (FGM) masih tinggi, yaitu 52 persen.
+              Perkawinan anak, selain melanggar hak-hak anak dengan memaksa mereka berhenti sekolah, juga mengakibatkan
+              kemiskinan antargenerasi, merusak pendidikan jangka panjang mereka, kemampuan untuk mencari nafkah, dan
+              ironisnya juga dapat bertambah jumlahnya. </p>
+
+
+            <p class="text-justify">Di sisi hukum, kekerasan terhadap anak belum dilarang dalam semua pengaturan
+              (perkosaan
+              dalam pernikahan masih
+              diizinkan), dan sistem keadilan untuk anak-anak belum memprioritaskan perlindungan bagi semua anak yang
+              berurusan dengan hukum. </p>
+
+
+            <p class="text-justify">Anggaran pemerintah didedikasikan untuk melindungi anak-anak dari kekerasan hanya
+              kurang
+              dari 0,1 persen dari
+              total anggaran. Prosedur administrasi publik yang kompleks dan kurangnya kewenangan yang diamanatkan untuk
+              perlindungan anak mengakibatkan kesulitan dalam menyediakan layanan yang efektif untuk anak-anak yang
+              rentan.
+              Selain itu, sekitar 17 persen anak-anak di bawah usia 18 tahun tidak memiliki akta kelahiran, yang
+              menyebabkan
+              mereka sulit untuk mengakses layanan utama.
+            </p>
+
+            <div class="media mt-3">
+              <img src="anak.jpeg" alt="Generic placeholder image" width="30%">
+              <div class="media-body mx-4">
+                <p class="text-justify">Anak merupakan tahapan yang harus dilalui oleh setiap orang menuju usia dewasa.
+                  Pada
+                  tahapan ini, anak memiliki sistem penilaian yang berbeda dengan sistem penilaian orang dewasa. Seorang
+                  anak memiliki sistem penilaian yang sifatnya kekanak-kanakan yang akan menampilkan anak dalam
+                  kedudukannya
+                  tersendiri. Sejak lahir seorang anak telah menampilkan tingkah laku dan kepribadian yang khas dan
+                  unik.
+                  Karena itu, sifat anak dan keadaan psikologisnya dalam beberapa hal memerlukan perlakuan khusus dan
+                  perlindungan khusus pula, terutama terhadap tindakan-tindakan yang pada hakekatnya dapat merugikan
+                  perkembangan mental maupun jasmaniah anak.</p>
+                <p class="text-justify">Pentingnya seorang anak memperoleh perlindungan yang memadai tidak hanya berguna
+                  bagi diri anak itu sendiri melainkan juga bagi kehidupan bangsa secara umum, mengingat seorang anak
+                  adalah
+                  tunas, potensi, dan generasi muda penerus cita-cita perjuangan bangsa. Karena itu tidak berlebihan
+                  apabila
+                  eksistensi bangsa dan negara secara relatif digantungkan pada diri anak. Apabila anak (perorangan
+                  maupun
+                  kelompok) suatu bangsa terancam maka eksistensi suatu bangsa pun ikut terancam pula. Oleh karena itu,
+                  perlakuan terhadap anak perlu dibedakan dengan perlakuan terhadap orang yang telah berusia dewasa,
+                  termasuk pada saat seorang anak harus menghadapi proses hukum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid bg-dark">
+      <div id="News" class="tabcontent tabcontent">
+        <div class="media my-5">
+          <div class="media-body">
+            <h5 class="mt-0 font-weight-bold">Korupsi</h5>
+            <h3 class="mt-5 font-weight-bold">Berawal dari sesuatu yang kecil</h3>
+            <p class="text-justify">“Korupsi”, Kata itu sudah tak asing lagi ditelinga kita ,kita sadari bahwasannya
+              dalam
+              negeri ini banyak sekali para pejabat - pejabat atau pemerintah yang melakukan korupsi. Hingga dalam
+              pertelevisian penuh dengan wajah wajah sang koruptor.</p>
+            <h3 class="mt-0 font-weight-bold my-3">Penyebab korupsi yang saya kutip dari <a
+                href="https://news.detik.com/berita/d-5248745/pengertian-korupsi-dari-penyebab-hingga-jenisnya"
+                class="card-link">Detik.com:</a></h3>
+            <h5 class="mt-0 font-weight-bold">1. Faktor Politik</h5>
+            <p class="text-justify">Politik adalah salah satu penyebab terjadinya korupsi. Hal ini dilihat ketika
+              terjadi
+              instabilitas politik, kepentingan politis para pemegang kekuasaan, bagkan ketika meraih dan mempertahankan
+              kekuasaan. Perilaku korup faktor ini seperti penyuapan dan politik uang.</p>
+            <h5 class="mt-0 font-weight-bold">2. Faktor Hukum</h5>
+            <p class="text-justify">Faktor hukum bisa dilihat dari aspek undang-undang dan sisi lain lemahnya penegakan
+              hukum. Tidak baiknya substansi hukum, mudah ditemukan dalam aturan-aturan yang diskriminatif dan tidak
+              adil,
+              rumusan yang tidak jelas dan tegas sehingga multi tafsir, kontradiksi, dan overlappingdengan peraturan
+              lain.
+            </p>
+            <h5 class="mt-0 font-weight-bold">3. Faktor Ekonomi</h5>
+            <p class="text-justify">Salah satu penyebab korupsi yakni terjadinya korupsi. Hal ini karena pendapatan atau
+              gaji yang tidak mencukupi kebutuhan.</p>
+            <div class="media mt-3">
+              <img src="korupsidua.jpeg" alt="Generic placeholder image" width="30%">
+              <div class="media-body mx-4">
+                <h5 class="mt-0 font-weight-bold">4. Faktor Organisasi</h5>
+                <p class="text-justify">Organisasi yang menjadi korban korupsi biasanya memberi andil terjadinya korupsi
+                  karena membuka pelungan atau kesempatan untuk terjadinya korupsi. Apabila organisasi tidak membuka
+                  peluang
+                  sedikitpun bagi seseorang untuk melakukan korupsi, maka korupsi tidak akan terjadi.</p>
+              </div>
+            </div>
+            <h3 class="mt-0 font-weight-bold mt-5">Sebelum lebih lanjut kita bahas singkat apa itu korupsi</h3>
+            <p class="text-justify">Dikutip dari Say No to Korupsi (2012) karya Juni Sjafrien Jahja, kata korupsi dari
+              bahasa Latin corruptio atau corruptus yang berasal dari bahasa Latin yang lebih tua corrumpere.</p>
+            <p class="text-justify">
+              Istilah korupsi dalam bahasa Inggris corruption dan corrupt, dalam bahasa Perancis corruption dan dalam
+              bahasa
+              Belanda corruptie yang menjadi kata korupsi dalam bahasa Indonesia.</p>
+            <p class="text-justify">Dalam Kamus Besar Bahasa Indonesia (KBBI) dijelaskan tentang pengertian istilah
+              korup
+              (kata sifat) dan korupsi (kata benda). Korup adalah buruk, rusak, busuk. Arti lain korup adalah suka
+              memakai
+              barang (uang) yang dipercayakan kepadanya; dapat disogok (memakai kekuasannya untuk kepentingan pribadi).
+              Mengkorup adalah merusak, menyelewengkan (menggelapkan) barang (uang) milik perusahaan (negara) tempat
+              kerjanya. Korupsi adalah penyelewengan atau penyalahgunaan uang negara (perusahaan dan sebagainya) untuk
+              keuntungan pribadi atau orang lain. Mengkorupsi adalah menyelewengkan atau menggelapkan (uang dan
+              sebagainya).
+            </p>
+
+            <div class="media mt-5">
+              <img src="korupsi.jpeg" alt="Generic placeholder image" width="30%">
+              <div class="media-body mx-4">
+                <p class="text-justify">Akan tetapi sadar gak kalian bahwasannya korupsi itu bukan hanya menyanggkup hal
+                  besar seperti penyalagunaan uang negara yang mana hal iitu jala merugikan negara kita? Korupsi
+                  terkadang
+                  sering kita temukan dalam hal- hal kecil yang mana itu menurut kita adalah hal yang wajar dan biasa
+                  kita
+                  lakukan dalam kehidupan aehari – hari. Ya…hal itu memang jarang kita sadari karena hal kecil itu udah
+                  menjadi sebuah kebiasaan sehingga ketika kita melakukannya biasa saja tidak ada rasa was-was sama
+                  sekali .
+                </p>
+                <p class="text-justify">Ingin tau apa aja korupsi yang tak disadari ? berikut ini korupsi yang ternyata
+                  ada
+                  dalam kehidupan sehari-hari </p>
+              </div>
+            </div>
+            <h5 class="mt-5 font-weight-bold">Korupsi uang Orang tua</h5>
+            <p class="text-justify">Hal ini sering terjadi ketika seoarang anak membutuhkan uang akan tetapi dibutuhkan
+              untuk memenuhi keinginannya bukan untuk kebutuhannya. Misalnya ketika kita meminta uang pada orang tua
+              dengan
+              alasan untuk keperluan sekolah seperti fotocopy, perlengkapan sekolah dll,padahal sebenarnya bukan untuk
+              itu
+              akan tetapi untuk membeli apa yang diinginkan oleh anak yaitu seperti baju,alat make up,kerudung (bagi
+              perempuan ),rokok,bensin,ngopi ( untuk laki-laki) dll. Hal tersebut termasuk korupsi juga loh ,jadi jangan
+              dibiasakan ya . itu akan berdampak jelek</p>
+            <h5 class="mt-5 font-weight-bold">Korupsi Penilangan</h5>
+            <p class="text-justify">Tidak bisa kita pungkiri ,ketika kita terkena tilang oleh polisi kita lebih memilih
+              uang
+              dari pada mengurusi hingga kepengadilan . mereka lebih memilih uang damai dari pada penggadilan</p>
+            <p class="text-justify">Ternyata korupsi bukan hanya berupa uang ada yang berupa brang dan berupa waktu.
+              Berikut
+              ini korupsi yang berupa benda dan waktu</p>
+
+            <h5 class="mt-5 font-weight-bold">Korupsi benda teman atau kelas</h5>
+            <p class="text-justify">Hal ini sering terjadi ketika dikelas .ketika kita meminjam barang teman dan berkata
+              akan mengembaliknnya nanti ,tapi apa yang terjadi ? Terkadang hingga seminggu lamanya belum kita
+              kembalikan
+              .bukan hanya itu seperti kita memakai barang milik kalas untuk kepentingan pribadi</p>
+
+            <h5 class="mt-5 font-weight-bold">Korupsi Waktu</h5>
+            <p class="text-justify">Hal ini sering sekali terjadi dalam kehidupan kita . dimulai dari kita terlambat
+              sekolah,terlambat makan ,terlambat bejama’ah. semua itu merupakan korupsi waktu yang mana kita tidak
+              melakukan hal tersebut dengan ketentuan yang sudah ada .</p>
+
+            <h3 class="text-justify mt-5 font-weight-bold">
+              Semua itu merupakan sebagian dari korupsi yang barawal dari sebuah kebiasaan kecil yang mana hal tersebut
+              dilakukan secara terus menerus. Sehingga ketika kita melakukannya tidak ada rasa was-was</h3>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="d-sm-block d-md-none">
+    <div class="container mt-5">
+      <img src="feeling_blue.svg" alt="Generic placeholder image" width="100%"><br>
+    <h3 class="text-justify mt-5 font-weight-bold">
+      Sorry, Please open in Desktop </h3>
+    </div>
+  </div>
+
+
+</body>
+
+<script>
+  function openPage(pageName, elmnt, color) {
+    // Hide all elements with class="tabcontent" by default */
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    // Remove the background color of all tablinks/buttons
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].style.backgroundColor = "";
+    }
+
+    // Show the specific tab content
+    document.getElementById(pageName).style.display = "block";
+
+    // Add the specific color to the button used to open the tab content
+    elmnt.style.backgroundColor = color;
+  }
+
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click(); 
+</script>
+
+</html>
